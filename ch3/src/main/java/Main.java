@@ -143,7 +143,69 @@ public class Main {
     }
     /**
      * practice 3.8
-     * des
+     * des: 展示用16进制与8进制计数法操作Long，用Long.toBinaryString()显示结果
      */
+    @Test
+    public void f8(){
+        Long l1 = 077L;
+        Long l2 = 0x77L;
+        print(Long.toBinaryString(l1)
+                + " " + Long.toBinaryString(l2));
+    }
 
+    /**
+     * practice 3.9
+     * des: 分别用float与double指数计数法所能表示的最大与最小值
+     */
+    @Test
+    public void f9(){
+        System.out.println(Float.MAX_VALUE + "\n" + Float.MIN_VALUE + "\n" + Double.MAX_VALUE + "\n" + Double.MIN_VALUE);
+    }
+
+    /**
+     * practice 3.10
+     * des: 交替二进制的位运算操作结果
+     */
+    @Test
+    public void f10(){
+        Integer i1 = 0b010101;
+        Integer i2 = 0b101010;
+        print(Integer.toBinaryString(i1 | i2));
+        print(Integer.toBinaryString(i1 & i2));
+        print(Integer.toBinaryString(i1 ^ i2));
+    }
+
+    /**
+     * practice 3.11,12,13
+     * des1: 对一个最高位为1的二进制数右移，直到为0
+     * des2: 对一个所有二进制位都为1的数左移，再无符号右移,直到为0
+     * des3: 显示char的二进制
+     */
+    @Test
+    public void f11(){
+        Integer i1 = 0b1000;
+        while(i1 !=0){
+            i1 >>= 1;
+            print(Integer.toBinaryString(i1));
+        }
+    }
+
+    @Test
+    public void f12(){
+        Integer i = 0b111111;
+        i <<= 1;
+        while(i != 0){
+            i >>>= 1;
+            print(Integer.toBinaryString(i));
+        }
+    }
+
+    @Test
+    public void f13(){
+        char c = 'a';
+        while(c < 'z'){
+            print(Integer.toBinaryString(c));
+            c += 1;
+        }
+    }
 }
