@@ -92,6 +92,21 @@ public class Main {
      */
     @Test
     public void f5(){
+        Integer i1 = 0b010101;
+        Integer i2 = 0b101010;
+        print(toBinString(i1 | i2));
+        print(toBinString(i1 & i2));
+        print(toBinString(i1 ^ i2));
+    }
 
+    public String toBinString(Integer i){
+        StringBuilder sb = new StringBuilder();
+        Integer j = 0b100000;
+        while(j != 0){
+            char x = (i & j) != 0?'1':'0';
+            sb.append(x);
+            j >>= 1;
+        }
+        return sb.toString();
     }
 }
