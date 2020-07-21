@@ -11,6 +11,7 @@
     <modules>
         <module>ch20</module>
         <module>ch3</module>
+        <module>ch4</module>
     </modules>
     <dependencies>
         <dependency>
@@ -20,4 +21,17 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
