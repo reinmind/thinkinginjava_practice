@@ -44,7 +44,7 @@ public class Main {
         System.out.println(v1.equals(v2));
     }
     /**
-     * practice 3.1
+     * practice 1
      * des: 使用简短和正常的打印语句
      */
     @Test
@@ -61,7 +61,7 @@ public class Main {
         public Float x;
     }
     /**
-     * practice 3.2
+     * practice 2
      * des: 创建包含float域的类，展示别名机制
      */
     @Test
@@ -75,7 +75,7 @@ public class Main {
     }
 
     /**
-     * practice 3.2
+     * practice 3
      * des: 创建包含float的类，展示方法别名机制
      */
     void f3(A o){
@@ -90,7 +90,7 @@ public class Main {
     }
 
     /**
-     * practice 3.4
+     * practice 4
      * des: 编写一个计算速度的程序，使用的时间和距离都是常量
      */
     @Test
@@ -103,7 +103,7 @@ public class Main {
     }
 
     /**
-     * practice 3.5,3.6
+     * practice 5,6
      * des5: 创建一个Dog类，两个域name,says
      * des6: 增加一个Dog索引,用 == 和 equals()比较对象
      */
@@ -126,7 +126,7 @@ public class Main {
     }
 
     /**
-     * practice 3.7
+     * practice 7
      * des: 编写一个程序，模拟扔硬币的结果
      */
     @Test
@@ -142,7 +142,7 @@ public class Main {
         }
     }
     /**
-     * practice 3.8
+     * practice 8
      * des: 展示用16进制与8进制计数法操作Long，用Long.toBinaryString()显示结果
      */
     @Test
@@ -154,7 +154,7 @@ public class Main {
     }
 
     /**
-     * practice 3.9
+     * practice 9
      * des: 分别用float与double指数计数法所能表示的最大与最小值
      */
     @Test
@@ -163,7 +163,7 @@ public class Main {
     }
 
     /**
-     * practice 3.10
+     * practice 10
      * des: 交替二进制的位运算操作结果
      */
     @Test
@@ -176,7 +176,7 @@ public class Main {
     }
 
     /**
-     * practice 3.11,12,13
+     * practice 11,12,13
      * des1: 对一个最高位为1的二进制数右移，直到为0
      * des2: 对一个所有二进制位都为1的数左移，再无符号右移,直到为0
      * des3: 显示char的二进制
@@ -207,5 +207,27 @@ public class Main {
             print(Integer.toBinaryString(c));
             c += 1;
         }
+    }
+
+    /**
+     * practice: 14
+     * des: 编写一个接受两个字符串参数的方法，用各种布尔值比较关系比较两个字符串
+     */
+    public boolean cmp1(String s1,String s2){
+        return s1.equals(s2);
+    }
+    public boolean cmp2(String s1,String s2){
+        return s1 == s2;
+    }
+    @Test
+    public void f14(){
+        String s1 = "hello";
+        String s2 = new String("hello");
+        String s3 = s1;
+
+        print(cmp1(s1,s2));
+        print(cmp2(s1,s2));
+        print(cmp1(s1,s3));
+        print(cmp2(s1,s3));
     }
 }
