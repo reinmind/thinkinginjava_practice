@@ -250,8 +250,11 @@ public class Main {
              list.remove(a1);
              list.remove(b1);
              list.remove(c1);
-             list.remove(d1);
+
              return list.isEmpty();
          }
+
+
+
 
 }

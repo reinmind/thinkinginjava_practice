@@ -12,6 +12,7 @@
         <module>ch20</module>
         <module>ch3</module>
         <module>ch4</module>
+        <module>ch5</module>
     </modules>
     <dependencies>
         <dependency>
