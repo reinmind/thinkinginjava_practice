@@ -10,6 +10,7 @@
         <module name="ch5" />
         <module name="ch4" />
         <module name="ch3" />
+        <module name="ch14" />
       </profile>
     </annotationProcessing>
   </component>
