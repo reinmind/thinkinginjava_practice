@@ -1,8 +1,6 @@
 package common;
 
 
-import common.*;
-
 /**
  * @author zx
  */

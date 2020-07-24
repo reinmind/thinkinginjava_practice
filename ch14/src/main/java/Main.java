@@ -2,6 +2,9 @@ import common.Circle;
 import common.Rhomboid;
 import common.Shape;
 import org.junit.Test;
+import typeinfo.Individual;
+import typeinfo.pets.Gerbil;
+import typeinfo.pets.Pet;
 
 import java.lang.reflect.Field;
 import java.util.Vector;
@@ -139,6 +142,23 @@ public class Main {
              e.printStackTrace();
          }
      }
+
+     /**
+      * practice 11
+      * des: 在typeinfo.pets中添加新类Gerbil,并修改本章所有示例，使适应这个新类
+      */
+      @Test
+      public void f11(){
+          Class<? super Gerbil> pCls = Gerbil.class;
+          try {
+              Gerbil g = (Gerbil) pCls.newInstance();
+              System.out.println("individual is super gerbil:" + pCls.isAssignableFrom(Gerbil.class));
+              System.out.println("individual is super pet:" + pCls.isAssignableFrom(Pet.class));
+              System.out.println("individual is super Individual:" + pCls.isAssignableFrom(Individual.class));
+          } catch (Exception e) {
+              e.printStackTrace();
+          }
+      }
 
 
 }
