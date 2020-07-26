@@ -14,7 +14,7 @@
         <module>ch4</module>
         <module>ch5</module>
         <module>ch14</module>
-        <module>ch18_JavaIO</module>
+        <module>ch18</module>
         <module>ch21</module>
     </modules>
     <dependencies>

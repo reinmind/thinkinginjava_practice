@@ -1,11 +1,11 @@
-import common.Cup;
-import common.G;
-import common.Tank;
+import entity.Cup;
+import entity.G;
+import entity.Tank;
 import org.junit.Test;
 
 import static utils.Print.print;
 
-import common.Book;
+import entity.Book;
 
 /**
  * 初始化和清理正是涉及安全的两个问题

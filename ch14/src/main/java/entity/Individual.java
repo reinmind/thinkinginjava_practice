@@ -1,4 +1,4 @@
-package typeinfo;
+package entity;
 
 /**
  * @author zx

@@ -1,4 +1,4 @@
-package typeinfo.pets;
+package entity.pets;
 
 /**
  * @author zx

@@ -23,7 +23,7 @@ public class ToyTest {
     public void testInfo() {
         Class c = null;
         try {
-            c = Class.forName("common.FancyToy");
+            c = Class.forName("entity.FancyToy");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

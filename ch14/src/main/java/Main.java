@@ -1,13 +1,12 @@
-import common.Circle;
-import common.Rhomboid;
-import common.Shape;
+import entity.Circle;
+import entity.Rhomboid;
+import entity.Shape;
+import util.TypeCounter;
 import org.junit.Test;
-import typeinfo.Individual;
-import typeinfo.pets.Gerbil;
-import typeinfo.pets.Pet;
+import entity.Individual;
+import entity.pets.Gerbil;
 
 import java.lang.reflect.Field;
-import java.util.Vector;
 
 /**
  * @author zx
@@ -100,7 +99,7 @@ public class Main {
          @Test
          public void f9(){
              try {
-                 Class cls = Class.forName("org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor");
+                 Class<? extends Number> cls = Integer.class;
                  dfsPrint_fields(cls,"");
              } catch (ClassNotFoundException e) {
                  e.printStackTrace();
@@ -146,19 +145,26 @@ public class Main {
      /**
       * practice 11
       * des: 在typeinfo.pets中添加新类Gerbil,并修改本章所有示例，使适应这个新类
+      *
+      *  a instance of b
+      *  a.isAssignableForm(Class<?> b)
+      *  a.isInstance(Class<?> b)
+      *
       */
       @Test
       public void f11(){
-          Class<? super Gerbil> pCls = Gerbil.class;
-          try {
-              Gerbil g = (Gerbil) pCls.newInstance();
-              System.out.println("individual is super gerbil:" + pCls.isAssignableFrom(Gerbil.class));
-              System.out.println("individual is super pet:" + pCls.isAssignableFrom(Pet.class));
-              System.out.println("individual is super Individual:" + pCls.isAssignableFrom(Individual.class));
-          } catch (Exception e) {
-              e.printStackTrace();
-          }
+          TypeCounter typeCounter = new TypeCounter(Individual.class);
+          typeCounter.count(new Gerbil());
+          System.out.println(typeCounter);
       }
 
+     /**
+      * practice 12
+      * des:
+      */
+     @Test
+     public void f12(){
+
+     }
 
 }

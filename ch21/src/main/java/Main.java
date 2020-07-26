@@ -1,4 +1,4 @@
-import common.Flow1;
+import entity.Flow1;
 import org.junit.Test;
 
 import java.util.ArrayList;

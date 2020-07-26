@@ -1,6 +1,6 @@
-package typeinfo.pets;
+package entity.pets;
 
-import typeinfo.Individual;
+import entity.Individual;
 
 /**
  * @author zx

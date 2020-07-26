@@ -1,6 +1,4 @@
-package common;
-
-import sun.awt.windows.WPrinterJob;
+package entity;
 
 /**
  * @author zx
