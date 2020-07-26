@@ -1,7 +1,8 @@
 import entity.Circle;
 import entity.Rhomboid;
 import entity.Shape;
-import typeinfo.RegisteredFactory;
+import typeinfo.rf1.RegisteredFactory;
+import typeinfo.rf2.RegisteredFactory2;
 import util.TypeCounter;
 import org.junit.Test;
 import entity.Individual;
@@ -180,4 +181,37 @@ public class Main {
          }
          System.out.println(typeCounter);
      }
+
+     /**
+      * 工厂类返回物件类对象来构造实例
+      * practice 14
+      * des: 构造器是一种工厂方法，修改RegisteredFactory，使其不要使用显式的工厂，而是将类存储到List当中，并使用newInstance来创建对象
+      */
+     @Test
+     public void f14(){
+         TypeCounter typeCounter = new TypeCounter(Object.class);
+         List<?> list = RegisteredFactory2.getParts();
+         for(Object o: list){
+             typeCounter.count(o);
+         }
+         System.out.println(typeCounter);
+     }
+
+    /**
+     * practice 15
+     * des: 使用注册工厂实现一个新的PetCreator,并修改Pet的外观,使其使用这个新的Creator而并非另外两个Creator。确保使用Pets.java的其他示例仍然可以正常工作
+     */
+    @Test
+    public void f15(){
+
+    }
+
+    /**
+     * practice 16
+     * des: 修改第十五章的Coff继承结构，以便可以使用注册工厂
+     */
+    @Test
+    public void f16(){
+
+    }
 }
