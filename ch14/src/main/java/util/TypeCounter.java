@@ -18,7 +18,7 @@ public class TypeCounter extends HashMap<Class<?>,Integer> {
         if(!baseType.isAssignableFrom(type)) {
             try {
                 throw new Exception(obj + " incorrect type:" +
-                            type + ".should be type of subtype of " + baseType);
+                            type + " should be type of subtype of " + baseType);
             } catch (Exception e) {
                 e.printStackTrace();
             }

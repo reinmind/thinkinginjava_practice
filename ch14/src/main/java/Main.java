@@ -1,12 +1,13 @@
 import entity.Circle;
 import entity.Rhomboid;
 import entity.Shape;
+import typeinfo.RegisteredFactory;
 import util.TypeCounter;
 import org.junit.Test;
 import entity.Individual;
 import entity.pets.Gerbil;
-
 import java.lang.reflect.Field;
+import java.util.List;
 
 /**
  * @author zx
@@ -160,11 +161,23 @@ public class Main {
 
      /**
       * practice 12
-      * des:
+      * des: 将下一章的CoffeeFactory用于TypeCounter
       */
      @Test
      public void f12(){
 
      }
-
+     /**
+      * practice 13
+      * des: 将本章的RegisteredFactory示例用于TypeCounter
+      */
+     @Test
+     public void f13(){
+         TypeCounter typeCounter = new TypeCounter(Object.class);
+         List<?> list = RegisteredFactory.getParts();
+         for(Object o: list){
+             typeCounter.count(o);
+         }
+         System.out.println(typeCounter);
+     }
 }
