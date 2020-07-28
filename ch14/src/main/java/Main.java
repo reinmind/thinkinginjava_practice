@@ -338,4 +338,14 @@ public class Main {
 
         }
 
+        /**
+         * practice 25
+         * des: 创建一个含有private protected和包访问权限方法的类，编写代码在该类所处的包的外部调用访问这些方法
+         */
+         @Test
+         public void f25(){
+            
+         }
+
+
 }
