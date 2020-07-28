@@ -1,0 +1,4 @@
+/**
+     * InputStream,OutputStream面向字节
+     * Reader,Writer面向字符
+     */
