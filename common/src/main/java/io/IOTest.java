@@ -17,7 +17,7 @@ public class IOTest {
 //    public Writer writer;
 //    public System system;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String... args) throws IOException {
         List<String> list = new LinkedList<>();
 //        File file = new File("comment.txt");
         BufferedReader bufferedReader = new BufferedReader(new FileReader("common/src/main/resources/comment.txt"));
