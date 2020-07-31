@@ -1,8 +1,6 @@
 import io.DirList;
-import io.IOTest;
+import io.RaspberryPi;
 import org.junit.Test;
-
-import java.io.IOException;
 
 public class Main {
 
@@ -37,6 +35,29 @@ public class Main {
      */
     public void f22(){
 
+    }
+
+    /**
+     * practice 27
+     * 创建一个Serializable类，它包含一个对第二个Serializable类的对象的引用。创建你的类的实例，
+     * 将其序列化到硬盘上，然后恢复它，并验证这个过程
+     * 可以正常地工作
+     *
+     * 本例制造了一个树莓派对象，包含两个field，Ip和Mac，toString()方法打印出相关信息
+     * 即使成员没有实现序列化的接口同样可以获取对象
+     */
+    @Test
+    public void f27(){
+        RaspberryPi raspberryPi = new RaspberryPi("192.168.30.41","e8:61:64:51:f4:ca");
+        System.out.println("save object raspberrypi:" + raspberryPi);
+
+        raspberryPi.save();
+
+        RaspberryPi restored = RaspberryPi.restore(raspberryPi.getClass().getSimpleName());
+
+        System.out.println("restore object raspberrypi:" + restored);
+        System.out.println("getPiIPAddress:" + restored.getIPAddress());
+        System.out.println("getAuth:"+restored.getAuth());
     }
 
 
