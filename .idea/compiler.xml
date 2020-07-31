@@ -6,22 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch5" />
+        <module name="annotation" />
+        <module name="oprator" />
+        <module name="ch18" />
+        <module name="initial_clean" />
+        <module name="ch14" />
+        <module name="ch13" />
+        <module name="ch21" />
+        <module name="String" />
+        <module name="ch20" />
         <module name="ch4" />
         <module name="ch3" />
-        <module name="ch18" />
-        <module name="ch14" />
-        <module name="String" />
-        <module name="oprator" />
-        <module name="annotation" />
-        <module name="JavaIO" />
-        <module name="ch21" />
-        <module name="ch20" />
-        <module name="RTTI" />
-        <module name="initial_clean" />
-        <module name="controlFlow" />
-        <module name="common" />
         <module name="concurrency" />
+        <module name="ch5" />
+        <module name="RTTI" />
+        <module name="common" />
+        <module name="controlFlow" />
+        <module name="math" />
+        <module name="JavaIO" />
+        <module name="ch18_JavaIO" />
       </profile>
     </annotationProcessing>
   </component>

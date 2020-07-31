@@ -162,5 +162,24 @@ public class Main {
         String knights_new = knights.replaceAll(regex,"_");
         System.out.println(knights_new);
     }
+    /**
+     * 正则表达式的创建
+     * 逻辑操作符，字符类
+     * 量词：贪婪型，懒汉型，占有型
+     * Pattern
+     * Matcher
+     */
+    /**
+     * practice 10
+     * 对字符串验证下列正则表达式是否能够发现一个匹配
+     * ^Java
+     * \Breg.*
+     * n.w\s+h(a|i)s
+     * s?
+     * s+
+     * s{4}
+     * s{1}
+     * s{0,3}
+     */
 
 }
