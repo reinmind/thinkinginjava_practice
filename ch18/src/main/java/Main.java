@@ -1,6 +1,10 @@
 import io.DirList;
 import io.RaspberryPi;
+import network.InetAddrTest;
+import network.socket.SocketTest;
 import org.junit.Test;
+
+import java.net.UnknownHostException;
 
 public class Main {
 
@@ -60,6 +64,25 @@ public class Main {
         System.out.println("getAuth:"+restored.getAuth());
     }
 
+    /**
+     * 下面是一个我为了测试网络序列化而编写的socket例子
+     */
+    @Test
+    public void socketTest(){
+        SocketTest.telnet("localhost",8189);
+    }
 
-
+    /**
+     * 通过域名找IP
+     */
+    @Test
+    public void getIP(){
+        try {
+            for(String str: InetAddrTest.getHostIPs("www.taobao.com")){
+                System.out.println(str);
+            }
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
+    }
 }

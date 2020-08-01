@@ -1,3 +1,10 @@
+import org.bouncycastle.pqc.jcajce.provider.BouncyCastlePQCProvider;
+import org.bouncycastle.util.encoders.Hex;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.Security;
+
 /**
  * @author zx
  */
@@ -11,8 +18,14 @@ public class EquationSolution {
     public static double may = 1.0;
     public static void main(String[] args) {
         EquationSolution equationSolution = new EquationSolution();
-        equationSolution.f(0.0,2.0);
-        System.out.println(may);
+        String solution = "";
+        try {
+            solution = equationSolution.encode("73.25%");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        System.out.println("solution:" + solution);
+        //System.out.println(1e1);
     }
 
     public void f(double a,double b){
@@ -35,4 +48,16 @@ public class EquationSolution {
     public double get_val(double x){
         return Math.pow(x,3) - 12 * x;
     }
+
+    public String encode(String ori) throws NoSuchAlgorithmException {
+        Security.addProvider(new BouncyCastlePQCProvider());
+        MessageDigest messageDigest = MessageDigest.getInstance("MD2");
+        for(int i = 0;i < 1e8; ++i){
+            if(i % 1e6 == 0) System.out.println(ori);
+            byte[] digest = messageDigest.digest(ori.getBytes());
+            ori = new String(Hex.encode(digest));
+        }
+        return ori;
+    }
+
 }
