@@ -32,17 +32,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="update plan">
-      <change afterPath="$PROJECT_DIR$/ch6/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/debug/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/debug/PrintSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/debug/sub/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/debug/sub/PrintSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/debugoff/Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch6/src/main/java/test/PackageTest.java" afterDir="false" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="包访问控制权限 完成">
+      <change afterPath="$PROJECT_DIR$/ch7/abstract.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/common/Cleanser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/common/DelayedLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/common/Detergent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/Java编程思想学习计划.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/Java编程思想学习计划.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,15 +103,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\src\thinkinginjava_src\common\src\main\resources" />
-      <recent name="E:\src\thinkinginjava_src\common\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
-      <recent name="E:\src\thinkinginjava_src\ch20\src\main\java" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="common" />
@@ -120,8 +116,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\src\thinkinginjava_src\common\src\main\resources" />
+      <recent name="E:\src\thinkinginjava_src\common\src\main\java" />
       <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
+      <recent name="E:\src\thinkinginjava_src\ch20\src\main\java" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -129,37 +128,11 @@
       <command value="javah" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main.f3">
+  <component name="RunManager" selected="JUnit.Main.f3 (1)">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RTTI" />
       <option name="PROGRAM_PARAMETERS" value="common.Circle" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.ObjectClient" />
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="network.ObjectServer" />
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="network.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.f1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="package_access_control" />
+    <configuration name="Main.f1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="METHOD_NAME" value="f1" />
@@ -193,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.f2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="package_access_control" />
+    <configuration name="Main.f2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch7" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="METHOD_NAME" value="f2" />
@@ -203,8 +176,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main.f2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="f2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.f3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="f3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main.f3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="package_access_control" />
+      <module name="ch6" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="METHOD_NAME" value="f3" />
@@ -263,19 +256,19 @@
     <list>
       <item itemvalue="Application.Practice20" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ObjectServer" />
-      <item itemvalue="Application.ObjectClient" />
-      <item itemvalue="JUnit.Main.f1" />
       <item itemvalue="JUnit.Main.f2" />
       <item itemvalue="JUnit.Main.f3" />
+      <item itemvalue="JUnit.Main.f1 (1)" />
+      <item itemvalue="JUnit.Main.f2 (1)" />
+      <item itemvalue="JUnit.Main.f3 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Main.f3 (1)" />
+        <item itemvalue="JUnit.Main.f2 (1)" />
+        <item itemvalue="JUnit.Main.f1 (1)" />
         <item itemvalue="JUnit.Main.f3" />
         <item itemvalue="JUnit.Main.f2" />
-        <item itemvalue="JUnit.Main.f1" />
-        <item itemvalue="Application.ObjectClient" />
-        <item itemvalue="Application.ObjectServer" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596374539832</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="包访问控制权限 完成">
+      <created>1596386911189</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1596386911189</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +511,8 @@
     <MESSAGE value="对象序列化，持久化，存储，恢复" />
     <MESSAGE value="利用socket进行对象序列化传输" />
     <MESSAGE value="update plan" />
-    <option name="LAST_COMMIT_MESSAGE" value="update plan" />
+    <MESSAGE value="包访问控制权限 完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="包访问控制权限 完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="40" width="675" height="728" key="#Main" timestamp="1595488342238">
@@ -530,10 +531,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="375" y="40" width="675" height="728" key="#Practice20/0.40.1366.728@0.40.1366.728" timestamp="1595407103982" />
-    <state x="163" y="40" key="#Project_Structure" timestamp="1596373664418">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="229" y="40" key="#Project_Structure" timestamp="1596389438447">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="163" y="40" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1596373664418" />
+    <state x="229" y="40" key="#Project_Structure/0.40.1920.1040@0.40.1920.1040" timestamp="1596389438447" />
     <state x="547" y="195" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596381436536">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -547,10 +549,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="378" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.40.1366.728@0.40.1366.728" timestamp="1595407142462" />
-    <state x="488" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1596185124362">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1596392662861">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="488" y="109" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1596185124362" />
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1596392662861" />
     <state x="413" y="179" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1595484230079">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -563,10 +566,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="515" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484345712" />
-    <state x="459" y="271" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595484686823">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="645" y="370" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596393068008">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="459" y="271" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1366.728@0.40.1366.728" timestamp="1595484686823" />
+    <state x="645" y="370" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1920.1040@0.40.1920.1040" timestamp="1596393068008" />
     <state x="459" y="244" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1595484349570">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -585,26 +589,26 @@
     </state>
     <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
     <state x="495" y="217" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1596381171204" />
-    <state width="1877" height="298" key="GridCell.Tab.0.bottom" timestamp="1596382118597">
+    <state width="1877" height="298" key="GridCell.Tab.0.bottom" timestamp="1596395663430">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1877" height="298" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596382118597" />
-    <state width="1877" height="298" key="GridCell.Tab.0.center" timestamp="1596382118597">
+    <state width="1877" height="298" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
+    <state width="1877" height="298" key="GridCell.Tab.0.center" timestamp="1596395663430">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1877" height="298" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596382118597" />
-    <state width="1877" height="298" key="GridCell.Tab.0.left" timestamp="1596382118597">
+    <state width="1877" height="298" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
+    <state width="1877" height="298" key="GridCell.Tab.0.left" timestamp="1596395663430">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1877" height="298" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596382118597" />
-    <state width="1877" height="298" key="GridCell.Tab.0.right" timestamp="1596382118597">
+    <state width="1877" height="298" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
+    <state width="1877" height="298" key="GridCell.Tab.0.right" timestamp="1596395663430">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1877" height="298" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596382118597" />
+    <state width="1877" height="298" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
     <state width="1323" height="256" key="GridCell.Tab.1.bottom" timestamp="1596291011624">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -633,11 +637,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="192" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1595988827733" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596374542179">
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596386915627">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1596373847717" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596374542179" />
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596386915627" />
     <state x="482" y="181" key="chooseDestDirectoryDialog" timestamp="1595484349522">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -652,18 +656,19 @@
     </state>
     <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596373922094" />
-    <state x="62" y="83" key="new project wizard" timestamp="1596379674331">
+    <state x="418" y="247" key="new project wizard" timestamp="1596387316166">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="44" y="70" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1596166804156" />
-    <state x="62" y="83" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1596379674331" />
+    <state x="418" y="247" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1596387316166" />
     <state x="339" y="182" width="672" height="677" key="run.anything.popup" timestamp="1596282198646">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="339" y="182" width="672" height="677" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282198646" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596282418611">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup" timestamp="1596395002468">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282418611" />
+    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1596395002468" />
   </component>
 </project>

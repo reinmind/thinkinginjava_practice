@@ -20,6 +20,7 @@
         <module>ch13</module>
         <module>math</module>
         <module>ch6</module>
+        <module>ch7</module>
     </modules>
     <dependencies>
         <dependency>

@@ -18,12 +18,13 @@
         <module name="ch4" />
         <module name="ch3" />
         <module name="concurrency" />
+        <module name="ch6" />
         <module name="ch5" />
         <module name="RTTI" />
+        <module name="ch7" />
         <module name="common" />
         <module name="controlFlow" />
         <module name="math" />
-        <module name="package_access_control" />
         <module name="JavaIO" />
       </profile>
     </annotationProcessing>
