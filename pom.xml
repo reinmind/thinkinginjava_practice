@@ -19,6 +19,7 @@
         <module>common</module>
         <module>ch13</module>
         <module>math</module>
+        <module>ch6</module>
     </modules>
     <dependencies>
         <dependency>
