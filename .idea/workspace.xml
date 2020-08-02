@@ -22,10 +22,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="利用socket进行对象序列化传输" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="增加Java IO部分的文件写入和读取\n修改native load的方式">
+      <change afterPath="$PROJECT_DIR$/math/math.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +56,11 @@
     <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -168,15 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -424,7 +439,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -512,30 +559,35 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="232" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1366.728@0.40.1366.728" timestamp="1596184268301" />
-    <state x="129" y="95" key="DiffContextDialog" timestamp="1596185456191">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="159" y="128" width="1536" height="860" key="DiffContextDialog" timestamp="1596374398824">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="129" y="95" key="DiffContextDialog/0.40.1366.728@0.40.1366.728" timestamp="1596185456191" />
+    <state x="159" y="128" width="1536" height="860" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596374398824" />
     <state x="340" y="148" key="FileChooserDialogImpl" timestamp="1595576168336">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
-    <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1596291226009">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1877" height="298" key="GridCell.Tab.0.bottom" timestamp="1596373961061">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1323" height="250" key="GridCell.Tab.0.center" timestamp="1596291226008">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1877" height="298" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596373961061" />
+    <state width="1877" height="298" key="GridCell.Tab.0.center" timestamp="1596373961061">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1323" height="250" key="GridCell.Tab.0.left" timestamp="1596291226008">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1877" height="298" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596373961061" />
+    <state width="1877" height="298" key="GridCell.Tab.0.left" timestamp="1596373961061">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1323" height="250" key="GridCell.Tab.0.right" timestamp="1596291226009">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1877" height="298" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596373961061" />
+    <state width="1877" height="298" key="GridCell.Tab.0.right" timestamp="1596373961061">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
+    <state width="1877" height="298" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596373961061" />
     <state width="1323" height="256" key="GridCell.Tab.1.bottom" timestamp="1596291011624">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -572,14 +624,16 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="482" y="181" key="chooseDestDirectoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484349522" />
-    <state x="535" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595985062020">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596374398699">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="535" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1366.728@0.40.1366.728" timestamp="1595985062020" />
-    <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596180308555">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596374398699" />
+    <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596373922094">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
+    <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596373922094" />
     <state x="44" y="70" key="new project wizard" timestamp="1596166804156">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
