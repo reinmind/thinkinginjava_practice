@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="利用socket进行对象序列化传输" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="java.io" />
+    </order>
+  </component>
+  <component name="ProjectId" id="1eyfW4n046ggNbui2JwHSAuEtrT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ch14/src/main/java/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\src\thinkinginjava_src\common\src\main\resources" />
+      <recent name="E:\src\thinkinginjava_src\common\src\main\java" />
+      <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
+      <recent name="E:\src\thinkinginjava_src\ch20\src\main\java" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="javah" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ObjectClient">
+    <configuration name="EhcoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.EhcoServer" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquationSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EquationSolution" />
+      <module name="math" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RTTI" />
+      <option name="PROGRAM_PARAMETERS" value="common.Circle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.ObjectClient" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.ObjectServer" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice20" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice20" />
+      <module name="initial_clean" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 3 4 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.socketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch18_JavaIO" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="socketTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="annotation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="annotation" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Practice20" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.EquationSolution" />
+      <item itemvalue="Application.EhcoServer" />
+      <item itemvalue="Application.ObjectServer" />
+      <item itemvalue="Application.ObjectClient" />
+      <item itemvalue="JUnit.Main.socketTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ObjectClient" />
+        <item itemvalue="Application.ObjectServer" />
+        <item itemvalue="Application.EquationSolution" />
+        <item itemvalue="Application.EhcoServer" />
+        <item itemvalue="JUnit.Main.socketTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\admin\AppData\Roaming\Subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="" />
+      <created>1595298781825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595298781825</updated>
+      <workItem from="1595298784841" duration="24622000" />
+      <workItem from="1595388757810" duration="38597000" />
+      <workItem from="1595574602917" duration="9179000" />
+      <workItem from="1595591721898" duration="3299000" />
+      <workItem from="1595811940942" duration="14538000" />
+      <workItem from="1595907744342" duration="31375000" />
+      <workItem from="1596007101919" duration="2108000" />
+      <workItem from="1596070488090" duration="884000" />
+      <workItem from="1596166754407" duration="30008000" />
+    </task>
+    <task id="LOCAL-00001" summary="注解定义及处理">
+      <created>1595299779551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595299779551</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add LICENSE">
+      <created>1595300215242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595300215242</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update README.md">
+      <created>1595301080586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595301080586</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update README.md">
+      <created>1595301179731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595301179731</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add .gitignore">
+      <created>1595301340039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595301340039</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update chapter3">
+      <created>1595311132420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595311132420</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finish chapter3">
+      <created>1595319559662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595319559662</updated>
+    </task>
+    <task id="LOCAL-00008" summary="bug fixed">
+      <created>1595320465411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595320465411</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish ch4">
+      <created>1595383641416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595383641416</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finish ch5">
+      <created>1595409160073</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595409160073</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finish ch14(practice 1-10)">
+      <created>1595492352125</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595492352125</updated>
+    </task>
+    <task id="LOCAL-00012" summary="concurrency 1-5">
+      <created>1595584147329</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595584147329</updated>
+    </task>
+    <task id="LOCAL-00013" summary="利用反射添加代理以及动态代理设计模式">
+      <created>1595823423721</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595823423721</updated>
+    </task>
+    <task id="LOCAL-00014" summary="利用注解和反射机制处理注解实现SQl生成&#10;JNI实现c语言native代码调用">
+      <created>1595931748459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595931748459</updated>
+    </task>
+    <task id="LOCAL-00015" summary="正则表达式的创建，正则表达式对字符串的匹配和替换，StringBuilder类使用">
+      <created>1596005614762</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1596005614762</updated>
+    </task>
+    <task id="LOCAL-00016" summary="一个2m的水坑，做功Q/2的积分">
+      <created>1596177206151</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596177206151</updated>
+    </task>
+    <task id="LOCAL-00017" summary="对象序列化，持久化，存储，恢复">
+      <created>1596185315370</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1596185315370</updated>
+    </task>
+    <task id="LOCAL-00018" summary="利用socket进行对象序列化传输">
+      <created>1596291141862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1596291141862</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="注解定义及处理" />
+    <MESSAGE value="add LICENSE" />
+    <MESSAGE value="update README.md" />
+    <MESSAGE value="add .gitignore" />
+    <MESSAGE value="update chapter3" />
+    <MESSAGE value="finish chapter3" />
+    <MESSAGE value="bug fixed" />
+    <MESSAGE value="finish ch4" />
+    <MESSAGE value="finish ch5" />
+    <MESSAGE value="finish ch14(practice 1-10)" />
+    <MESSAGE value="concurrency 1-5" />
+    <MESSAGE value="利用反射添加代理以及动态代理设计模式" />
+    <MESSAGE value="利用注解和反射机制处理注解实现SQl生成&#10;JNI实现c语言native代码调用" />
+    <MESSAGE value="正则表达式的创建，正则表达式对字符串的匹配和替换，StringBuilder类使用" />
+    <MESSAGE value="一个2m的水坑，做功Q/2的积分" />
+    <MESSAGE value="对象序列化，持久化，存储，恢复" />
+    <MESSAGE value="利用socket进行对象序列化传输" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用socket进行对象序列化传输" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="40" width="675" height="728" key="#Main" timestamp="1595488342238">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="352" y="40" width="675" height="728" key="#Main/0.40.1366.728@0.40.1366.728" timestamp="1595488342238" />
+    <state x="417" y="227" key="#Notifications" timestamp="1596180363098">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="417" y="227" key="#Notifications/0.40.1366.728@0.40.1366.728" timestamp="1596180363098" />
+    <state x="513" y="257" key="#Other_File_Types" timestamp="1595300398057">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="513" y="257" key="#Other_File_Types/0.40.1366.728@0.40.1366.728" timestamp="1595300398057" />
+    <state x="375" y="40" width="675" height="728" key="#Practice20" timestamp="1595407103982">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="375" y="40" width="675" height="728" key="#Practice20/0.40.1366.728@0.40.1366.728" timestamp="1595407103982" />
+    <state x="163" y="40" key="#Project_Structure" timestamp="1595988841913">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="163" y="40" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1595988841913" />
+    <state x="137" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595407342564">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="137" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1595407342564" />
+    <state x="422" y="204" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596289765611">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="422" y="204" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728@0.40.1366.728" timestamp="1596289765611" />
+    <state x="378" y="136" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595407142462">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="378" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.40.1366.728@0.40.1366.728" timestamp="1595407142462" />
+    <state x="488" y="109" key="#com.intellij.ide.util.MemberChooser" timestamp="1596185124362">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="488" y="109" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1596185124362" />
+    <state x="413" y="179" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1595484230079">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="413" y="179" key="#com.intellij.ide.util.PackageChooserDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484230079" />
+    <state x="363" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596005618607">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="363" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.40.1366.728@0.40.1366.728" timestamp="1596005618607" />
+    <state x="515" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595484345712">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="515" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484345712" />
+    <state x="459" y="271" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595484686823">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="459" y="271" width="447" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1366.728@0.40.1366.728" timestamp="1595484686823" />
+    <state x="459" y="244" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1595484349570">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="459" y="244" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484349570" />
+    <state x="232" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596184268301">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="232" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1366.728@0.40.1366.728" timestamp="1596184268301" />
+    <state x="129" y="95" key="DiffContextDialog" timestamp="1596185456191">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="129" y="95" key="DiffContextDialog/0.40.1366.728@0.40.1366.728" timestamp="1596185456191" />
+    <state x="340" y="148" key="FileChooserDialogImpl" timestamp="1595576168336">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom" timestamp="1596291226009">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
+    <state width="1323" height="250" key="GridCell.Tab.0.center" timestamp="1596291226008">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
+    <state width="1323" height="250" key="GridCell.Tab.0.left" timestamp="1596291226008">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
+    <state width="1323" height="250" key="GridCell.Tab.0.right" timestamp="1596291226009">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="250" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
+    <state width="1323" height="256" key="GridCell.Tab.1.bottom" timestamp="1596291011624">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291011624" />
+    <state width="1323" height="256" key="GridCell.Tab.1.center" timestamp="1596291011623">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
+    <state width="1323" height="256" key="GridCell.Tab.1.left" timestamp="1596291011623">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
+    <state width="1323" height="256" key="GridCell.Tab.1.right" timestamp="1596291011623">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="256" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
+    <state x="352" y="107" key="NewModule_or_Project.wizard" timestamp="1595576174368">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="352" y="107" key="NewModule_or_Project.wizard/0.40.1366.728@0.40.1366.728" timestamp="1595576174368" />
+    <state x="464" y="105" key="RollbackChangesDialog" timestamp="1596291340323">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="464" y="105" key="RollbackChangesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596291340323" />
+    <state x="192" y="40" key="SettingsEditor" timestamp="1595988827733">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="192" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1595988827733" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1596291369008">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1596291369008" />
+    <state x="482" y="181" key="chooseDestDirectoryDialog" timestamp="1595484349522">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="482" y="181" key="chooseDestDirectoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484349522" />
+    <state x="535" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595985062020">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="535" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1366.728@0.40.1366.728" timestamp="1595985062020" />
+    <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596180308555">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
+    <state x="44" y="70" key="new project wizard" timestamp="1596166804156">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="44" y="70" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1596166804156" />
+    <state x="339" y="182" width="672" height="677" key="run.anything.popup" timestamp="1596282198646">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="339" y="182" width="672" height="677" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282198646" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596282418611">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282418611" />
+  </component>
+</project>
