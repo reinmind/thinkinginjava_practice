@@ -32,17 +32,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="包访问控制权限 完成">
-      <change afterPath="$PROJECT_DIR$/ch7/abstract.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/common/Cleanser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/common/DelayedLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/src/main/java/common/Detergent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="增加第七章组合，继承，代理等代码复用方式">
+      <change afterPath="$PROJECT_DIR$/note/1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/Java编程思想学习计划.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/Java编程思想学习计划.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\apache-maven-3.5.0" />
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="E:\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -145,13 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,6 +288,7 @@
       <workItem from="1596070488090" duration="884000" />
       <workItem from="1596166754407" duration="30008000" />
       <workItem from="1596373619788" duration="480000" />
+      <workItem from="1596447762731" duration="3564000" />
     </task>
     <task id="LOCAL-00001" summary="注解定义及处理">
       <created>1595299779551</created>
@@ -442,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596386911189</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="增加第七章组合，继承，代理等代码复用方式">
+      <created>1596396006598</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1596396006598</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +514,8 @@
     <MESSAGE value="利用socket进行对象序列化传输" />
     <MESSAGE value="update plan" />
     <MESSAGE value="包访问控制权限 完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="包访问控制权限 完成" />
+    <MESSAGE value="增加第七章组合，继承，代理等代码复用方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加第七章组合，继承，代理等代码复用方式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="40" width="675" height="728" key="#Main" timestamp="1595488342238">
@@ -589,26 +592,26 @@
     </state>
     <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
     <state x="495" y="217" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1596381171204" />
-    <state width="1877" height="298" key="GridCell.Tab.0.bottom" timestamp="1596395663430">
+    <state width="670" height="298" key="GridCell.Tab.0.bottom" timestamp="1596396025772">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1877" height="298" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
-    <state width="1877" height="298" key="GridCell.Tab.0.center" timestamp="1596395663430">
+    <state width="670" height="298" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596396025772" />
+    <state width="670" height="298" key="GridCell.Tab.0.center" timestamp="1596396025772">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1877" height="298" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
-    <state width="1877" height="298" key="GridCell.Tab.0.left" timestamp="1596395663430">
+    <state width="670" height="298" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596396025772" />
+    <state width="670" height="298" key="GridCell.Tab.0.left" timestamp="1596396025771">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1877" height="298" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
-    <state width="1877" height="298" key="GridCell.Tab.0.right" timestamp="1596395663430">
+    <state width="670" height="298" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596396025771" />
+    <state width="670" height="298" key="GridCell.Tab.0.right" timestamp="1596396025772">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1877" height="298" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596395663430" />
+    <state width="670" height="298" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596396025772" />
     <state width="1323" height="256" key="GridCell.Tab.1.bottom" timestamp="1596291011624">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -637,11 +640,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="192" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1595988827733" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596386915627">
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596396010895">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1596373847717" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596386915627" />
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596396010895" />
     <state x="482" y="181" key="chooseDestDirectoryDialog" timestamp="1595484349522">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -656,11 +659,11 @@
     </state>
     <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596373922094" />
-    <state x="418" y="247" key="new project wizard" timestamp="1596387316166">
+    <state x="418" y="247" key="new project wizard" timestamp="1596479691105">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="44" y="70" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1596166804156" />
-    <state x="418" y="247" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1596387316166" />
+    <state x="418" y="247" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1596479691105" />
     <state x="339" y="182" width="672" height="677" key="run.anything.popup" timestamp="1596282198646">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
