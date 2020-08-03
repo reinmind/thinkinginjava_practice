@@ -36,3 +36,17 @@ class FilterAdapter implements Processor {
 ...
 }
 ```
+- 工厂
+```
+将代码完全与接口实现分离，这就使得我们可以透明地将某个实现替换为另一个实现
+interface Service{
+    + Object method1();
+    + Object method2();
+}
+interface ServiceFactory{
+    + Srevice getService();
+}
+class Factory{
+
+}
+```

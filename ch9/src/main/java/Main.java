@@ -61,4 +61,14 @@ public class Main {
         SwapStringAdapter swapStringAdapter = new SwapStringAdapter(new SwapString());
         apply.process(swapStringAdapter,"HelloWorld");
     }
+
+    /**
+     * practice 18
+     * 创建一个Cycle接口以及Unicycle，Bicycle和Tricycle的实现，对每种类型的Cycle都创建相应的工厂，然后编写代码使用这些工厂
+     */
+
+    /**
+     * practice 19
+     * 使用工厂方法创建一个框架，他可以实现抛硬币和掷骰子的功能
+     */
 }
