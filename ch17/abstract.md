@@ -1,0 +1,22 @@
+容器的深入研究
+---
+- 完整的容器分类法
+- 填充容器
+- Collection的功能方法
+- 可选操作
+- List的功能方法
+- Set的存储操作
+- 队列
+- 理解Map
+- 散列与散列码
+- 选择接口的不同实现
+- 实用方法  
+- - 排序和查询
+- - 设定Collection与Map不可修改
+- - Collection与Map的同步控制
+- 持有引用
+- Java 1.0/1.1的容器
+- - BitSet
+- - Stack
+- - Vector和Enumeration
+- - Hashtable

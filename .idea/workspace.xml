@@ -49,10 +49,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="增加设计模式#1#适配器模式,#2#策略设计模式">
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="增加工厂模式">
+      <change afterPath="$PROJECT_DIR$/ch11/abstract.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/abstract.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch17/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch9/abstract.md" beforeDir="false" afterPath="$PROJECT_DIR$/ch9/abstract.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch9/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +310,7 @@
       <workItem from="1596166754407" duration="30008000" />
       <workItem from="1596373619788" duration="480000" />
       <workItem from="1596447762731" duration="4216000" />
-      <workItem from="1596486093635" duration="8308000" />
+      <workItem from="1596486093635" duration="11196000" />
     </task>
     <task id="LOCAL-00001" summary="注解定义及处理">
       <created>1595299779551</created>
@@ -483,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596492538232</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="增加工厂模式">
+      <created>1596495619760</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1596495619760</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +567,8 @@
     <MESSAGE value="增加第七章组合，继承，代理等代码复用方式" />
     <MESSAGE value="ch8 init" />
     <MESSAGE value="增加设计模式#1#适配器模式,#2#策略设计模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加设计模式#1#适配器模式,#2#策略设计模式" />
+    <MESSAGE value="增加工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加工厂模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="40" width="675" height="728" key="#Main" timestamp="1595488342238">
@@ -705,11 +717,11 @@
     </state>
     <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596373922094" />
-    <state x="789" y="321" key="new project wizard" timestamp="1596486611166">
+    <state x="789" y="321" key="new project wizard" timestamp="1596497398525">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="44" y="70" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1596166804156" />
-    <state x="789" y="321" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1596486611166" />
+    <state x="789" y="321" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1596497398525" />
     <state x="339" y="182" width="672" height="677" key="run.anything.popup" timestamp="1596282198646">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
