@@ -21,6 +21,7 @@
         <module>math</module>
         <module>ch6</module>
         <module>ch7</module>
+        <module>ch8</module>
     </modules>
     <dependencies>
         <dependency>

@@ -21,6 +21,7 @@
         <module name="ch6" />
         <module name="ch5" />
         <module name="RTTI" />
+        <module name="ch8" />
         <module name="ch7" />
         <module name="common" />
         <module name="controlFlow" />
