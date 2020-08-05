@@ -1,3 +1,3 @@
 <component name="DependencyValidationManager">
-  <scope name="java.io" pattern="lib:java.io.*" />
+  <scope name="java.util" pattern="lib:java.util.*" />
 </component>

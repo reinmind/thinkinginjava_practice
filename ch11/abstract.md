@@ -30,6 +30,47 @@
 - Collection和Iterator
 - Foreach与迭代器
 
+两个类型
+---
+```
+Collection: interface
+    List: interface
+    Queue: interface
+        BlockingQueue: interface
+        Deque: interface
+        AbstractQueue: class
+            PriorityQueue: class
+        ConcurrentLinkedQueue: class
+    Set: interface
+        SortedSet:  interface
+            CheckedSortedSet : abstract class
+        HashSet: class
+            LinkedHashSet: class
+Map: interface
+    HashMap: class
+        LinkedHashMap: class
+    AbstractMap: class
+        TreeMap: class
+    Hashtable: class
+    SortedMap: class
+```
+```
+collection: 
+    add(): public
+    remove(): public
+```
+
+散列与散列码
+---
+_**如果要使用自己的类作为HashMap的键，必须同时重载hashCode()和equals()**_
+```
+正确的equals方法必须同时满足下列五个条件  
+1）自反性:x.equals(x)一定为true
+2）对称性:x.equals(y)为true,那么y.equals(x)也为true
+3）传递性:x.equlas(y)为true,y.equals(z)为true,那么z.equals(z)也为true
+4）一致性:如果对象中用于等价比较的信息没有改变，无论调用x,y多少次，结果依然为true
+5）对任何不是null的x,x.equals(null)一定返回false
+```
 设计模式
 ---
 - 迭代器
