@@ -50,13 +50,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="增加工厂模式">
-      <change afterPath="$PROJECT_DIR$/ch11/abstract.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/abstract.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch17/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch18/abstract.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,6 +306,8 @@
       <workItem from="1596373619788" duration="480000" />
       <workItem from="1596447762731" duration="4216000" />
       <workItem from="1596486093635" duration="11196000" />
+      <workItem from="1596633889133" duration="763000" />
+      <workItem from="1596652278855" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="注解定义及处理">
       <created>1595299779551</created>
@@ -587,11 +584,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="375" y="40" width="675" height="728" key="#Practice20/0.40.1366.728@0.40.1366.728" timestamp="1595407103982" />
-    <state x="229" y="40" key="#Project_Structure" timestamp="1596482599010">
+    <state x="229" y="40" key="#Project_Structure" timestamp="1596652341542">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="163" y="40" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1596373664418" />
-    <state x="229" y="40" key="#Project_Structure/0.40.1920.1040@0.40.1920.1040" timestamp="1596482599010" />
+    <state x="229" y="40" key="#Project_Structure/0.40.1920.1040@0.40.1920.1040" timestamp="1596652341542" />
     <state x="547" y="195" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596381436536">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
