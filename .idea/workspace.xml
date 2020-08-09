@@ -39,14 +39,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="增加学习计划">
-      <change afterPath="$PROJECT_DIR$/ch11/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch11/src/main/java/common/MovieGenerator.java" afterDir="false" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="update README.md">
+      <change afterPath="$PROJECT_DIR$/ch11/src/main/java/common/Gerbil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11/src/main/java/container/collection/SimpleCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11/src/main/java/container/collection/list/ListFeature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch11/abstract.md" beforeDir="false" afterPath="$PROJECT_DIR$/ch11/abstract.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch11/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch11/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,6 @@
         <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -81,7 +88,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="E:\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -107,9 +114,6 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ch14/src/main/java/common" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/resources" />
@@ -120,26 +124,20 @@
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="MoveInnerDialog.RECENTS_KEY">
-      <recent name="common" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\src\thinkinginjava_src\common\src\main\resources" />
       <recent name="E:\src\thinkinginjava_src\common\src\main\java" />
       <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
       <recent name="E:\src\thinkinginjava_src\ch20\src\main\java" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -147,7 +145,7 @@
       <command value="javah" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Main.f4">
+  <component name="RunManager" selected="JUnit.Main.f6">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RTTI" />
@@ -171,28 +169,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.f11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch9" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.f1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="f11" />
+      <option name="METHOD_NAME" value="f1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.f4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.f2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="f4" />
+      <option name="METHOD_NAME" value="f2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main.f5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch9" />
+      <module name="ch11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="METHOD_NAME" value="f5" />
@@ -202,7 +213,7 @@
       </method>
     </configuration>
     <configuration name="Main.f6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch9" />
+      <module name="ch11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="METHOD_NAME" value="f6" />
@@ -262,18 +273,18 @@
       <item itemvalue="Application.Practice20" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main17" />
+      <item itemvalue="JUnit.Main.f1" />
+      <item itemvalue="JUnit.Main.f2" />
       <item itemvalue="JUnit.Main.f5" />
       <item itemvalue="JUnit.Main.f6" />
-      <item itemvalue="JUnit.Main.f11" />
-      <item itemvalue="JUnit.Main.f4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Main.f4" />
-        <item itemvalue="Application.Main17" />
-        <item itemvalue="JUnit.Main.f11" />
         <item itemvalue="JUnit.Main.f6" />
         <item itemvalue="JUnit.Main.f5" />
+        <item itemvalue="JUnit.Main.f2" />
+        <item itemvalue="JUnit.Main.f1" />
+        <item itemvalue="Application.Main17" />
       </list>
     </recent_temporary>
   </component>
@@ -303,9 +314,9 @@
       <workItem from="1596486093635" duration="11196000" />
       <workItem from="1596633889133" duration="763000" />
       <workItem from="1596652278855" duration="6032000" />
-      <workItem from="1596732227413" duration="5009000" />
-      <workItem from="1596770553247" duration="5725000" />
-      <workItem from="1596781864641" duration="1990000" />
+      <workItem from="1596732227413" duration="5940000" />
+      <workItem from="1596973929407" duration="721000" />
+      <workItem from="1597001404811" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="注解定义及处理">
       <created>1595299779551</created>
@@ -503,7 +514,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596658141571</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="String的哈希因子为何是31">
+      <created>1596737645605</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1596737645605</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update README.md">
+      <created>1597001737541</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597001737541</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,9 +579,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="注解定义及处理" />
     <MESSAGE value="add LICENSE" />
-    <MESSAGE value="update README.md" />
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="update chapter3" />
     <MESSAGE value="finish chapter3" />
@@ -579,7 +602,9 @@
     <MESSAGE value="增加工厂模式" />
     <MESSAGE value="add abstract.md for JavaIO" />
     <MESSAGE value="增加容器表的一些数据结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加容器表的一些数据结构" />
+    <MESSAGE value="String的哈希因子为何是31" />
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="40" width="675" height="728" key="#Main" timestamp="1595488342238">
@@ -616,11 +641,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="378" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.40.1366.728@0.40.1366.728" timestamp="1595407142462" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1596491674123">
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1597004081095">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="488" y="109" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1596185124362" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1596491674123" />
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1597004081095" />
     <state x="413" y="179" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1595484230079">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -660,26 +685,26 @@
     </state>
     <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
     <state x="495" y="217" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1596381171204" />
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1596781045740">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597003081728">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596781045740" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1596737130715" />
-    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1596781045740">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1597003081728" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597003081727">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596781045740" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1596737130715" />
-    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1596781045739">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1323" height="250" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1597003081727" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597003081726">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596781045739" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1596737130715" />
-    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1596781045740">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state width="1323" height="250" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1597003081726" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597003081727">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596781045740" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596737130715" />
+    <state width="1323" height="250" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1597003081727" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596492383139">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -700,6 +725,14 @@
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1596492383139" />
+    <state x="146" y="130" key="MergeDialog" timestamp="1597002121312">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="146" y="130" key="MergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002121312" />
+    <state x="595" y="320" key="MultipleFileMergeDialog" timestamp="1597002104656">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="595" y="320" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002104656" />
     <state x="352" y="107" key="NewModule_or_Project.wizard" timestamp="1595576174368">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -713,28 +746,24 @@
     </state>
     <state x="192" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1595988827733" />
     <state x="270" y="40" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1596488396348" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1596658148499">
+    <state x="724" y="275" key="VCS.ChangeListViewerDialog" timestamp="1597002078618">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="724" y="275" key="VCS.ChangeListViewerDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002078618" />
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1597002137497">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1596373847717" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596658148499" />
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1597002137497" />
     <state x="482" y="181" key="chooseDestDirectoryDialog" timestamp="1595484349522">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="482" y="181" key="chooseDestDirectoryDialog/0.40.1366.728@0.40.1366.728" timestamp="1595484349522" />
-    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596374398699">
+    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597002083705">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="535" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1366.728@0.40.1366.728" timestamp="1595985062020" />
-    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1596374398699" />
-    <state x="648" y="266" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596775694991">
-      <screen x="0" y="40" width="1366" height="728" />
-    </state>
-    <state x="648" y="266" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.40.1366.728@0.40.1366.728" timestamp="1596775694991" />
-    <state x="416" y="127" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596776781632">
-      <screen x="0" y="40" width="1366" height="728" />
-    </state>
-    <state x="416" y="127" width="921" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.40.1366.728@0.40.1366.728" timestamp="1596776781632" />
+    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1597002083705" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596373922094">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -753,10 +782,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="708" y="365" width="504" height="401" key="scopes/0.40.1920.1040@0.40.1920.1040" timestamp="1596655455466" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596782474243">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup" timestamp="1596735259506">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1596782474243" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282418611" />
     <state x="486" y="110" width="945" height="969" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1596735259506" />
   </component>
   <component name="XDebuggerManager">
@@ -767,10 +796,6 @@
           <line>19</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
