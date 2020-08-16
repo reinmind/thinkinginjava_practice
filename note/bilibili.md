@@ -1,0 +1,12 @@
+ ### 高级Java开发工程师：
+ - 负责业务后端研发；
+ - 对现有系统的不足进行分析，找到系统的瓶颈，改进系统架构，提高系统性能。
+ ### 职责要求：
+ - 2年以上开发经验，具备很强的逻辑思维能力,有较好的算法基础者优先；
+ - 具备良好的沟通和口头及书面表达能力，良好的学习能力及较强的团队精神；
+ - java基础扎实、精通jdk8、jdk9或kotlin等；
+ - 精通spring、struts、play、netty、springboot、rpc等至少其中一种；
+ - 熟练使用mysql、tidb、mongodb等数据库的一种及以上；
+ - 熟悉redis、memcache等分布式缓存中的一种；
+ - 熟悉rocketmq、kafka消息队列等任意消息队列；
+ - 掌握一定的linuxshell、python脚本能力等，能进行jvm性能调优的优先。
