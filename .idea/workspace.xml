@@ -42,17 +42,18 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="update bilibili.md">
-      <change afterPath="$PROJECT_DIR$/ch21/abstract.md" afterDir="false" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="update lambda">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8/java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java8/java8.iml" afterDir="false" />
     </list>
+    <list id="70168832-d704-4531-b041-15433810d54d" name="Revert &quot;update lambda&quot;" comment="Revert &quot;update lambda&quot;&#10;&#10;This reverts commit 5ae78e8a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,11 +122,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\src\thinkinginjava_src\common\src\main\resources" />
-      <recent name="E:\src\thinkinginjava_src\common\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
-      <recent name="E:\src\thinkinginjava_src\ch20\src\main\java" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="common" />
@@ -133,8 +131,11 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\src\thinkinginjava_src\common\src\main\resources" />
+      <recent name="E:\src\thinkinginjava_src\common\src\main\java" />
       <recent name="E:\src\thinkinginjava_src\common\src\main\java\nati" />
+      <recent name="E:\src\thinkinginjava_src\ch20\src\main\java" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -162,19 +163,6 @@
       <option name="MAIN_CLASS_NAME" value="Practice20" />
       <module name="initial_clean" />
       <option name="PROGRAM_PARAMETERS" value="1 2 3 4 5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -537,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597599380442</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Revert &quot;update lambda&quot;&#10;&#10;This reverts commit 5ae78e8a">
+      <created>1598301223937</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1598301223937</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update lambda">
+      <created>1598301272663</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1598301272663</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +556,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -588,8 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add .gitignore" />
-    <MESSAGE value="update chapter3" />
     <MESSAGE value="finish chapter3" />
     <MESSAGE value="bug fixed" />
     <MESSAGE value="finish ch4" />
@@ -613,7 +613,9 @@
     <MESSAGE value="String的哈希因子为何是31" />
     <MESSAGE value="update README.md" />
     <MESSAGE value="update bilibili.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update bilibili.md" />
+    <MESSAGE value="Revert &quot;update lambda&quot;&#10;&#10;This reverts commit 5ae78e8a" />
+    <MESSAGE value="update lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="update lambda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="370" key="#Custom_Plugin_Repositories" timestamp="1597592288384">
@@ -692,6 +694,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="232" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1366.728@0.40.1366.728" timestamp="1596184268301" />
+    <state x="542" y="125" key="CommitChangelistDialog2" timestamp="1598301222497">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="542" y="125" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1598301222497" />
     <state x="159" y="128" width="1536" height="860" key="DiffContextDialog" timestamp="1596374398824">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -746,10 +752,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="146" y="130" key="MergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002121312" />
-    <state x="595" y="320" key="MultipleFileMergeDialog" timestamp="1597002104656">
+    <state x="595" y="320" key="MultipleFileMergeDialog" timestamp="1598301305446">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="595" y="320" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002104656" />
+    <state x="595" y="320" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1598301305446" />
     <state x="352" y="107" key="NewModule_or_Project.wizard" timestamp="1595576174368">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -767,11 +773,11 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="724" y="275" key="VCS.ChangeListViewerDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002078618" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1597599384383">
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1598301281113">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1596373847717" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1597599384383" />
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1598301281113" />
     <state x="482" y="181" key="chooseDestDirectoryDialog" timestamp="1595484349522">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
