@@ -129,8 +129,8 @@ public class Player implements PCMProcessor {
             List<String> stringList = new ArrayList<>();
 
             stringList.add("applet/src/main/resources/media/FELT - Tayuta.flac");
-            stringList.add("applet/src/main/resources/media/3L - Three Magic.flac");
-            stringList.add("applet/src/main/resources/media/FELT - Undefined.flac");
+            //stringList.add("applet/src/main/resources/media/3L - Three Magic.flac");
+            //stringList.add("applet/src/main/resources/media/FELT - Undefined.flac");
             for(String x: stringList)
                 decoder.decode(x);
         } catch (FileNotFoundException e) {
