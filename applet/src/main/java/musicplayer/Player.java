@@ -48,17 +48,14 @@ public class Player implements PCMProcessor {
     private Vector listeners = new Vector();
 
 
-    public void addListener (LineListener listener)
-    {
-        listeners.add(listener);
-    }
+
     /**
      * Decode and play an input FLAC file.
      * @param inFileName    The input FLAC file name
      * @throws IOException  Thrown if error reading file
      * @throws LineUnavailableException Thrown if error playing file
      */
-    public void decode(String inFileName) throws IOException, LineUnavailableException {
+    public void decode(String inFileName) throws IOException {
 //        System.out.println("Play [" + inFileName + "]");
         FileInputStream is = new FileInputStream(inFileName);
 
@@ -112,11 +109,6 @@ public class Player implements PCMProcessor {
     }
 
 
-    public void removeListener (LineListener listener)
-    {
-        listeners.removeElement(listener);
-    }
-
 
     /**
      * The main routine.
@@ -128,16 +120,14 @@ public class Player implements PCMProcessor {
             Player decoder = new Player();
             List<String> stringList = new ArrayList<>();
 
-            stringList.add("applet/src/main/resources/media/FELT - Tayuta.flac");
+            //stringList.add("applet/src/main/resources/media/FELT - Tayuta.flac");
             //stringList.add("applet/src/main/resources/media/3L - Three Magic.flac");
-            //stringList.add("applet/src/main/resources/media/FELT - Undefined.flac");
+            stringList.add("applet/src/main/resources/media/FELT - Undefined.flac");
             for(String x: stringList)
                 decoder.decode(x);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (LineUnavailableException e) {
             e.printStackTrace();
         }
 
