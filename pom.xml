@@ -25,6 +25,7 @@
         <module>ch9</module>
         <module>ch11</module>
         <module>ch17</module>
+        <module>applet</module>
     </modules>
     <dependencies>
         <dependency>
