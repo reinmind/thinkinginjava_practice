@@ -10,6 +10,7 @@
         <module name="String" />
         <module name="ch20" />
         <module name="RTTI" />
+        <module name="tensorflow" />
         <module name="common" />
         <module name="controlFlow" />
         <module name="annotation" />
