@@ -18,6 +18,7 @@
         <module name="oprator" />
         <module name="ch18" />
         <module name="initial_clean" />
+        <module name="ch19" />
         <module name="ch17" />
         <module name="ch14" />
         <module name="ch13" />
@@ -35,5 +36,6 @@
         <module name="applet" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>

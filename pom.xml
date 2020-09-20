@@ -27,6 +27,7 @@
         <module>ch17</module>
         <module>applet</module>
         <module>tensorflow</module>
+        <module>ch19</module>
     </modules>
     <dependencies>
         <dependency>
@@ -52,6 +53,12 @@
             <artifactId>libtensorflow_jni_gpu</artifactId>
             <version>1.15.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.73</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -60,8 +67,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>11</source>
+                    <target>11</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>

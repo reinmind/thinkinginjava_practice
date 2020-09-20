@@ -1,5 +1,4 @@
 import org.junit.Test;
-import sun.awt.windows.WPrinterJob;
 
 import java.util.Random;
 

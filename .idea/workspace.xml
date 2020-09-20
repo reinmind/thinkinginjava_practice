@@ -48,8 +48,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="add tensorflow">
-      <change beforePath="$PROJECT_DIR$/java8/java8.iml" beforeDir="false" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="update module">
+      <change afterPath="$PROJECT_DIR$/ch19/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19/src/main/java/p1/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19/src/main/java/p10/ConstantSpecificationMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch19/src/main/java/p9/EnumMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/enumerated/AlarmPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/target/classes/annotation/UseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch20/target/classes/annotation/UseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/target/classes/annotation/processors/UseCaseTrackerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch20/target/classes/annotation/processors/UseCaseTrackerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch20/target/classes/utils/PasswordUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch20/target/classes/utils/PasswordUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/network/ObjectClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/network/ObjectClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="70168832-d704-4531-b041-15433810d54d" name="Revert &quot;update lambda&quot;" comment="Revert &quot;update lambda&quot;&#10;&#10;This reverts commit 5ae78e8a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +77,7 @@
         <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -78,7 +92,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="java.util" />
@@ -91,6 +104,9 @@
         <option name="userSettingsFile" value="E:\apache\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="NamedScopeManager">
     <order>
@@ -115,7 +131,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ch14/src/main/java/common" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/java8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThinkInJava4thSampleCode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -143,15 +159,31 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="javah" />
+      <command value="mvn compile" />
+      <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloTf">
-    <configuration name="Analyser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sound.Analyser" />
-      <module name="applet" />
+  <component name="RunManager" selected="Application.EnumMaps">
+    <configuration name="ConstantSpecificationMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="p10.ConstantSpecificationMethod" />
+      <module name="ch19" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sound.*" />
+          <option name="PATTERN" value="p10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="EnumMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p9.EnumMaps" />
+      <module name="ch19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,30 +191,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloTensorflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloTensorflow" />
-      <module name="tensorflow" />
+    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="p1.EnumTest" />
+      <module name="ch19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="HelloTf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="HelloTf" />
       <module name="tensorflow" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="musicplayer.Player" />
-      <module name="applet" />
-      <option name="PROGRAM_PARAMETERS" value="E:\workspace\thinkinginjava_practice\applet\src\main\resources\media\FELT - Undefined.flac" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="musicplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,19 +292,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Player" />
-      <item itemvalue="Application.Analyser" />
-      <item itemvalue="Application.HelloTensorflow" />
       <item itemvalue="Application.HelloTf" />
+      <item itemvalue="Application.EnumTest" />
+      <item itemvalue="Application.ConstantSpecificationMethod" />
       <item itemvalue="JUnit.AppleTest.f2" />
+      <item itemvalue="Application.EnumMaps" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloTf" />
-        <item itemvalue="Application.HelloTensorflow" />
+        <item itemvalue="Application.EnumMaps" />
+        <item itemvalue="Application.ConstantSpecificationMethod" />
+        <item itemvalue="Application.EnumTest" />
         <item itemvalue="JUnit.AppleTest.f2" />
-        <item itemvalue="Application.Player" />
-        <item itemvalue="Application.Analyser" />
+        <item itemvalue="Application.HelloTf" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +355,8 @@
       <workItem from="1600549239172" duration="2608000" />
       <workItem from="1600612822063" duration="110000" />
       <workItem from="1600612956652" duration="3484000" />
-      <workItem from="1600625352518" duration="95000" />
+      <workItem from="1600625352518" duration="6673000" />
+      <workItem from="1600633059532" duration="1740000" />
     </task>
     <task id="LOCAL-00001" summary="注解定义及处理">
       <created>1595299779551</created>
@@ -602,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600625403427</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="update module">
+      <created>1600625473872</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1600625473872</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +689,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finish ch14(practice 1-10)" />
     <MESSAGE value="concurrency 1-5" />
     <MESSAGE value="利用反射添加代理以及动态代理设计模式" />
     <MESSAGE value="利用注解和反射机制处理注解实现SQl生成&#10;JNI实现c语言native代码调用" />
@@ -678,7 +713,8 @@
     <MESSAGE value="Revert &quot;Delete FELT - Undefined.flac&quot;&#10;&#10;This reverts commit bf601768" />
     <MESSAGE value="Revert &quot;Delete 3L - Three Magic.flac&quot;&#10;&#10;This reverts commit dd6cd400" />
     <MESSAGE value="add tensorflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tensorflow" />
+    <MESSAGE value="update module" />
+    <option name="LAST_COMMIT_MESSAGE" value="update module" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="370" key="#Custom_Plugin_Repositories" timestamp="1597592288384">
@@ -705,16 +741,16 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="375" y="40" width="675" height="728" key="#Practice20/0.40.1366.728@0.40.1366.728" timestamp="1595407103982" />
-    <state x="229" y="40" key="#Project_Structure" timestamp="1598801895779">
+    <state x="229" y="40" key="#Project_Structure" timestamp="1600632346407">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="163" y="40" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1596373664418" />
-    <state x="229" y="40" key="#Project_Structure/0.40.1920.1040@0.40.1920.1040" timestamp="1598801895779" />
-    <state x="547" y="166" width="1092" height="914" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600546897772">
+    <state x="229" y="40" key="#Project_Structure/0.40.1920.1040@0.40.1920.1040" timestamp="1600632346407" />
+    <state x="547" y="40" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600631884196">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="137" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1595407342564" />
-    <state x="547" y="166" width="1092" height="914" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1600546897772" />
+    <state x="547" y="40" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1600631884196" />
     <state x="593" y="274" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598817897708">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -724,11 +760,11 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="378" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.40.1366.728@0.40.1366.728" timestamp="1595407142462" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1597004081095">
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1600628749080">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="488" y="109" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1596185124362" />
-    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1597004081095" />
+    <state x="686" y="139" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1600628749080" />
     <state x="413" y="179" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1595484230079">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -759,6 +795,14 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="232" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1366.728@0.40.1366.728" timestamp="1596184268301" />
+    <state x="838" y="345" key="#xdebugger.evaluate" timestamp="1600628647649">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="838" y="345" key="#xdebugger.evaluate/0.40.1920.1040@0.40.1920.1040" timestamp="1600628647649" />
+    <state x="627" y="227" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600627567500">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="627" y="227" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.40.1920.1040@0.40.1920.1040" timestamp="1600627567500" />
     <state x="537" y="125" key="CommitChangelistDialog2" timestamp="1598817885499">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -768,51 +812,51 @@
     </state>
     <state x="129" y="95" key="DiffContextDialog/0.40.1366.728@0.40.1366.728" timestamp="1596185456191" />
     <state x="159" y="128" width="1536" height="860" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596374398824" />
-    <state x="210" y="289" key="FileChooserDialogImpl" timestamp="1600625436458">
+    <state x="392" y="216" width="440" height="508" key="FileChooserDialogImpl" timestamp="1600633069906">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
-    <state x="210" y="289" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1600625436458" />
-    <state width="1340" height="281" key="GridCell.Tab.0.bottom" timestamp="1600606315232">
+    <state x="392" y="216" width="440" height="508" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1600633069906" />
+    <state width="1340" height="246" key="GridCell.Tab.0.bottom" timestamp="1600633037100">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1340" height="281" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315232" />
-    <state width="1340" height="281" key="GridCell.Tab.0.center" timestamp="1600606315231">
+    <state width="1340" height="246" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037100" />
+    <state width="1340" height="246" key="GridCell.Tab.0.center" timestamp="1600633037100">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1340" height="281" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315231" />
-    <state width="1340" height="281" key="GridCell.Tab.0.left" timestamp="1600606315229">
+    <state width="1340" height="246" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037100" />
+    <state width="1340" height="246" key="GridCell.Tab.0.left" timestamp="1600633037100">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1596291226008" />
-    <state width="1340" height="281" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315229" />
-    <state width="1340" height="281" key="GridCell.Tab.0.right" timestamp="1600606315232">
+    <state width="1340" height="246" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037100" />
+    <state width="1340" height="246" key="GridCell.Tab.0.right" timestamp="1600633037100">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="250" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1596291226009" />
-    <state width="1340" height="281" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315232" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600606315217">
+    <state width="1340" height="246" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037100" />
+    <state width="1340" height="246" key="GridCell.Tab.1.bottom" timestamp="1600633037101">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1596291011624" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315217" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600606315217">
+    <state width="1340" height="246" key="GridCell.Tab.1.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037101" />
+    <state width="1340" height="246" key="GridCell.Tab.1.center" timestamp="1600633037100">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315217" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600606315216">
+    <state width="1340" height="246" key="GridCell.Tab.1.center/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037100" />
+    <state width="1340" height="246" key="GridCell.Tab.1.left" timestamp="1600633037100">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315216" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600606315217">
+    <state width="1340" height="246" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037100" />
+    <state width="1340" height="246" key="GridCell.Tab.1.right" timestamp="1600633037101">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1596291011623" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1600606315217" />
+    <state width="1340" height="246" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1600633037101" />
     <state x="146" y="130" key="MergeDialog" timestamp="1597002121312">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -830,20 +874,20 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="464" y="105" key="RollbackChangesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596291340323" />
-    <state x="186" y="181" width="1371" height="711" key="SettingsEditor" timestamp="1600625448059">
+    <state x="319" y="181" width="1371" height="708" key="SettingsEditor" timestamp="1600633034946">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="192" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1595988827733" />
-    <state x="186" y="181" width="1371" height="711" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1600625448059" />
+    <state x="319" y="181" width="1371" height="708" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1600633034946" />
     <state x="724" y="275" key="VCS.ChangeListViewerDialog" timestamp="1597002078618">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="724" y="275" key="VCS.ChangeListViewerDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002078618" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1598817759445">
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2" timestamp="1600625477683">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1596373847717" />
-    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1598817759445" />
+    <state x="387" y="179" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1600625477683" />
     <state x="482" y="181" key="chooseDestDirectoryDialog" timestamp="1595484349522">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -852,34 +896,35 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="92" y="132" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1598303876936" />
-    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598185622266">
+    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600625577683">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="535" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1366.728@0.40.1366.728" timestamp="1595985062020" />
-    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1598185622266" />
+    <state x="752" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040@0.40.1920.1040" timestamp="1600625577683" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1596373922094">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596373922094" />
-    <state x="462" y="230" key="new project wizard" timestamp="1600625427799">
+    <state x="462" y="230" key="new project wizard" timestamp="1600626083558">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="44" y="70" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1596166804156" />
-    <state x="462" y="230" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1600625427799" />
-    <state x="339" y="182" width="672" height="677" key="run.anything.popup" timestamp="1596282198646">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="462" y="230" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1600626083558" />
+    <state x="476" y="243" width="945" height="968" key="run.anything.popup" timestamp="1600631898002">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="339" y="182" width="672" height="677" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282198646" />
+    <state x="476" y="243" width="945" height="968" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1600631898002" />
     <state x="708" y="365" width="504" height="401" key="scopes" timestamp="1596655455466">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="708" y="365" width="504" height="401" key="scopes/0.40.1920.1040@0.40.1920.1040" timestamp="1596655455466" />
-    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup" timestamp="1600615186670">
+    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup" timestamp="1600633012257">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1596282418611" />
-    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1600615186670" />
+    <state x="486" y="110" width="945" height="969" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1600633012257" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
