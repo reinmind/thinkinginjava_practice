@@ -12,6 +12,7 @@
         <module name="RTTI" />
         <module name="tensorflow" />
         <module name="common" />
+        <module name="java8" />
         <module name="controlFlow" />
         <module name="annotation" />
         <module name="oprator" />

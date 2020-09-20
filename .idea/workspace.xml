@@ -48,16 +48,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="update lambda">
-      <change afterPath="$PROJECT_DIR$/tensorflow/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/src/main/java/HelloTensorflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/src/main/java/HelloTf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8c644a8a-27e1-4441-b109-c0cac1e357f1" name="Default Changelist" comment="add tensorflow">
+      <change beforePath="$PROJECT_DIR$/java8/java8.iml" beforeDir="false" />
     </list>
     <list id="70168832-d704-4531-b041-15433810d54d" name="Revert &quot;update lambda&quot;" comment="Revert &quot;update lambda&quot;&#10;&#10;This reverts commit 5ae78e8a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +115,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ch14/src/main/java/common" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java8" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -191,6 +183,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -322,6 +327,7 @@
       <workItem from="1600549239172" duration="2608000" />
       <workItem from="1600612822063" duration="110000" />
       <workItem from="1600612956652" duration="3484000" />
+      <workItem from="1600625352518" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="注解定义及处理">
       <created>1595299779551</created>
@@ -589,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598817886874</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add tensorflow">
+      <created>1600625403427</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1600625403427</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +653,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finish ch5" />
     <MESSAGE value="finish ch14(practice 1-10)" />
     <MESSAGE value="concurrency 1-5" />
     <MESSAGE value="利用反射添加代理以及动态代理设计模式" />
@@ -665,7 +677,8 @@
     <MESSAGE value="update lambda" />
     <MESSAGE value="Revert &quot;Delete FELT - Undefined.flac&quot;&#10;&#10;This reverts commit bf601768" />
     <MESSAGE value="Revert &quot;Delete 3L - Three Magic.flac&quot;&#10;&#10;This reverts commit dd6cd400" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Delete 3L - Three Magic.flac&quot;&#10;&#10;This reverts commit dd6cd400" />
+    <MESSAGE value="add tensorflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tensorflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="370" key="#Custom_Plugin_Repositories" timestamp="1597592288384">
@@ -755,11 +768,11 @@
     </state>
     <state x="129" y="95" key="DiffContextDialog/0.40.1366.728@0.40.1366.728" timestamp="1596185456191" />
     <state x="159" y="128" width="1536" height="860" key="DiffContextDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596374398824" />
-    <state x="210" y="289" key="FileChooserDialogImpl" timestamp="1600546805328">
+    <state x="210" y="289" key="FileChooserDialogImpl" timestamp="1600625436458">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="340" y="148" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1595576168336" />
-    <state x="210" y="289" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1600546805328" />
+    <state x="210" y="289" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1600625436458" />
     <state width="1340" height="281" key="GridCell.Tab.0.bottom" timestamp="1600606315232">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -808,19 +821,20 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="595" y="320" key="MultipleFileMergeDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1597002104656" />
-    <state x="352" y="107" key="NewModule_or_Project.wizard" timestamp="1595576174368">
-      <screen x="0" y="40" width="1366" height="728" />
+    <state x="495" y="136" key="NewModule_or_Project.wizard" timestamp="1600625445411">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="352" y="107" key="NewModule_or_Project.wizard/0.40.1366.728@0.40.1366.728" timestamp="1595576174368" />
+    <state x="495" y="136" key="NewModule_or_Project.wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1600625445411" />
     <state x="464" y="105" key="RollbackChangesDialog" timestamp="1596291340323">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="464" y="105" key="RollbackChangesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596291340323" />
-    <state x="-6" y="176" width="1371" height="711" key="SettingsEditor" timestamp="1600615867078">
+    <state x="186" y="181" width="1371" height="711" key="SettingsEditor" timestamp="1600625448059">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="192" y="40" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1595988827733" />
-    <state x="-6" y="176" width="1371" height="711" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1600615867078" />
+    <state x="186" y="181" width="1371" height="711" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1600625448059" />
     <state x="724" y="275" key="VCS.ChangeListViewerDialog" timestamp="1597002078618">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -848,11 +862,11 @@
     </state>
     <state x="453" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1366.728@0.40.1366.728" timestamp="1596180308555" />
     <state x="637" y="416" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1596373922094" />
-    <state x="462" y="230" key="new project wizard" timestamp="1600547133830">
+    <state x="462" y="230" key="new project wizard" timestamp="1600625427799">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="44" y="70" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1596166804156" />
-    <state x="462" y="230" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1600547133830" />
+    <state x="462" y="230" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1600625427799" />
     <state x="339" y="182" width="672" height="677" key="run.anything.popup" timestamp="1596282198646">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
